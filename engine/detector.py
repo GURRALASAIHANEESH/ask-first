@@ -385,6 +385,14 @@ class PatternDetector:
                     and s.conversation.timestamp > t_time
                 ]
 
+                if len(later_symptom_sessions) < 2:
+                    self._log(
+                        "delayed_skip",
+                        f"{tl.user.user_id}: Symptom '{_label(symptom_val)}' appears only once after "
+                        f"'{_label(trigger_val)}' — skipping",
+                    )
+                    continue
+
                 evidence = [trigger_sess] + later_symptom_sessions
                 evidence_deduped = []
                 seen_ids: set[str] = set()
@@ -806,23 +814,50 @@ class PatternDetector:
                 f"Sample size of {len(sessions)} episodes may be too small for reliable isolation",
             ]
 
-            self._patterns.append(
-                DetectedPattern(
-                    pattern_id=self._next_id(),
-                    user_id=tl.user.user_id,
-                    title=title,
-                    evidence_sessions=_sessions_to_ids(sessions),
-                    temporal_reasoning=temporal,
-                    confidence=confidence,
-                    justification=justification,
-                    supporting_signals=supporting,
-                    alternative_explanations=alternatives,
+            symptom_session_ids = {s.conversation.session_id for s in sessions}
+
+            matching = next(
+                (
+                    p for p in self._patterns
+                    if p.user_id == tl.user.user_id
+                    and len(symptom_session_ids & set(p.evidence_sessions)) >= 2
+                ),
+                None,
+            )
+
+            if matching is not None:
+                matching.temporal_reasoning += (
+                    f" Variable isolation across {len(sessions)} sessions suggests "
+                    f"{_label(top_trigger)} ({top_ratio:.0%}) is the stronger driver "
+                    f"than {_label(second_trigger)} ({second_ratio:.0%})."
                 )
-            )
-            self._log(
-                "variable_isolation_found",
-                f"{tl.user.user_id}: {title} — {confidence.value}",
-            )
+                matching.justification += (
+                    f"; isolation analysis favors {_label(top_trigger)} over "
+                    f"{_label(second_trigger)}"
+                )
+                self._log(
+                    "variable_isolation_enrichment",
+                    f"{tl.user.user_id}: Enriched existing pattern with isolation of "
+                    f"{_label(top_trigger)} vs {_label(second_trigger)} for {_label(symptom_val)}",
+                )
+            else:
+                self._patterns.append(
+                    DetectedPattern(
+                        pattern_id=self._next_id(),
+                        user_id=tl.user.user_id,
+                        title=title,
+                        evidence_sessions=_sessions_to_ids(sessions),
+                        temporal_reasoning=temporal,
+                        confidence=confidence,
+                        justification=justification,
+                        supporting_signals=supporting,
+                        alternative_explanations=alternatives,
+                    )
+                )
+                self._log(
+                    "variable_isolation_found",
+                    f"{tl.user.user_id}: {title} — {confidence.value}",
+                )
 
     def _deduplicate(self) -> None:
         self._log("deduplication", f"Checking {len(self._patterns)} patterns for redundancy")
@@ -845,6 +880,7 @@ class PatternDetector:
                 if smaller == 0:
                     continue
 
+                # Check 1: original exact-symptom dedup
                 pi_syms = {
                     s.extracted_text for s in pi.supporting_signals
                     if s.signal_type == "symptom"
@@ -854,7 +890,13 @@ class PatternDetector:
                     if s.signal_type == "symptom"
                 }
 
-                if len(overlap) / smaller >= 0.8 and pi_syms == pj_syms:
+                exact_dup = len(overlap) / smaller >= 0.8 and pi_syms == pj_syms
+
+                # Check 2: session subset or high overlap dedup
+                subset_match = si.issubset(sj) or sj.issubset(si)
+                partial_overlap = len(overlap) / smaller >= 0.7
+
+                if exact_dup or (subset_match and partial_overlap):
                     if len(si) >= len(sj):
                         to_remove.add(j)
                     else:
