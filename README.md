@@ -170,7 +170,7 @@ Each detected pattern follows this structure:
 
 The app is deployed on Streamlit Community Cloud.
 
-**Live link:** [ADD YOUR DEPLOYED LINK HERE]
+**Live link:** https://ask-first-lkkxjszhlnqhv5fb9got47.streamlit.app/
 
 To deploy your own instance:
 
