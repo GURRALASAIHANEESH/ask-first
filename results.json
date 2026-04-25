@@ -1,0 +1,2245 @@
+{
+  "detected_patterns": [
+    {
+      "pattern_id": "P-001",
+      "user_id": "USR001",
+      "short_title": "Recurring stomach pain correlated with late night eating during work deadline stress",
+      "evidence_sessions": [
+        "USR001_S01",
+        "USR001_S04",
+        "USR001_S07",
+        "USR001_S09"
+      ],
+      "temporal_reasoning": "Stomach pain appeared in 4 sessions. Late night eating co-occurred in 4 of those (100%). Dates: Jan 05, Jan 28, Feb 23, Mar 19. Work deadline stress also present in 3 sessions (75%). Intervention 'increasing water intake' on Feb 14 followed by worsening after 10 days. Intervention 'posture breaks' on Jan 19 followed by worsening after 9 days.",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 3 month(s). spanning 72 days. confirmed by both intervention improvement and recurrence on re-exposure. linking my stomach has been hurting since last night, like a burning kind of pain in the middle started maybe aroun..., stomach again. I know I know. had dinner at midnight after a sprint review that ran late this..., stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes w..., stomach pain last night again. I am starting to think I have some kind of condition 11:30pm.... to ...gain. I am starting to think I have some kind of condition 11:30pm. yes another deadline arjun this is the fourth episode of stomach pain and every single time it follo..., ...like a burning kind of pain in the middle started maybe around midnight. I had dinner pretty late, like around 11:30pm after a long work session. the pain comes and goes sounds..., ...n this is the fourth episode of stomach pain and every single time it follows a late dinner during a work deadline. you dont have a stomach condition. you have a late eati..., ...p again. same burning pain as before ate around 11pm again, had a deadline. yes work has been intense. yeah same place this is the second time the stomach pain has come after a late..., stomach again. I know I know. had dinner at midnight after a sprint review that ran late this is now the third time - january 5th, j..., stomach again. I know I know. had dinner at midnight after a sprint review that ran late this is now the third time - january 5th, january 28th, and tonig..., stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes work has been intense. yeah same place this is the...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S01",
+          "signal_type": "symptom",
+          "extracted_text": "my stomach has been hurting since last night, like a burning kind of pain in the middle started maybe aroun...",
+          "timestamp": "2026-01-05T23:14:00"
+        },
+        {
+          "session_id": "USR001_S01",
+          "signal_type": "trigger",
+          "extracted_text": "...like a burning kind of pain in the middle started maybe around midnight. I had dinner pretty late, like around 11:30pm after a long work session. the pain comes and goes sounds...",
+          "timestamp": "2026-01-05T23:14:00"
+        },
+        {
+          "session_id": "USR001_S04",
+          "signal_type": "symptom",
+          "extracted_text": "stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes w...",
+          "timestamp": "2026-01-28T00:42:00"
+        },
+        {
+          "session_id": "USR001_S04",
+          "signal_type": "trigger",
+          "extracted_text": "stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes work has been intense. yeah same place this is the...",
+          "timestamp": "2026-01-28T00:42:00"
+        },
+        {
+          "session_id": "USR001_S04",
+          "signal_type": "trigger",
+          "extracted_text": "...p again. same burning pain as before ate around 11pm again, had a deadline. yes work has been intense. yeah same place this is the second time the stomach pain has come after a late...",
+          "timestamp": "2026-01-28T00:42:00"
+        },
+        {
+          "session_id": "USR001_S07",
+          "signal_type": "symptom",
+          "extracted_text": "stomach again. I know I know. had dinner at midnight after a sprint review that ran late this...",
+          "timestamp": "2026-02-23T23:55:00"
+        },
+        {
+          "session_id": "USR001_S07",
+          "signal_type": "trigger",
+          "extracted_text": "stomach again. I know I know. had dinner at midnight after a sprint review that ran late this is now the third time - january 5th, j...",
+          "timestamp": "2026-02-23T23:55:00"
+        },
+        {
+          "session_id": "USR001_S07",
+          "signal_type": "trigger",
+          "extracted_text": "stomach again. I know I know. had dinner at midnight after a sprint review that ran late this is now the third time - january 5th, january 28th, and tonig...",
+          "timestamp": "2026-02-23T23:55:00"
+        },
+        {
+          "session_id": "USR001_S09",
+          "signal_type": "symptom",
+          "extracted_text": "stomach pain last night again. I am starting to think I have some kind of condition 11:30pm....",
+          "timestamp": "2026-03-19T10:15:00"
+        },
+        {
+          "session_id": "USR001_S09",
+          "signal_type": "trigger",
+          "extracted_text": "...n this is the fourth episode of stomach pain and every single time it follows a late dinner during a work deadline. you dont have a stomach condition. you have a late eati...",
+          "timestamp": "2026-03-19T10:15:00"
+        },
+        {
+          "session_id": "USR001_S09",
+          "signal_type": "trigger",
+          "extracted_text": "...gain. I am starting to think I have some kind of condition 11:30pm. yes another deadline arjun this is the fourth episode of stomach pain and every single time it follo...",
+          "timestamp": "2026-03-19T10:15:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Coincidental timing of stomach pain and late night eating",
+        "Unknown confounding variable driving both stomach pain and late night eating",
+        "One of the secondary factors (work deadline stress) may be the actual driver"
+      ]
+    },
+    {
+      "pattern_id": "P-002",
+      "user_id": "USR001",
+      "short_title": "Recurring headache correlated with low water intake during sedentary behavior and work deadline stress",
+      "evidence_sessions": [
+        "USR001_S02",
+        "USR001_S03",
+        "USR001_S06",
+        "USR001_S08"
+      ],
+      "temporal_reasoning": "Headache appeared in 4 sessions. Low water intake co-occurred in 3 of those (75%). Dates: Jan 12, Jan 19, Feb 14, Mar 08. Sedentary behavior also present in 2 sessions (50%). Work deadline stress also present in 2 sessions (50%). Intervention 'increasing water intake' on Jan 12 followed by improvement after 7 days.",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 3 month(s). spanning 55 days. confirmed by intervention leading to improvement. linking ...headaches in the afternoon, like around 3 or 4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy..., ...uary week 2, and now march week 2 - all during high pressure work periods. your headaches are a hydration and workload signal not a random health issue, headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit fo..., random question, been getting headaches again this week. thought I was drinking more water but maybe not enough maybe 3... to ...4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy at work. yes screens all day afternoon he..., ...che is back. honestly I dont even know why I am surprised barely any water. yes massive release this week you already know the answer here. busy week, no water, headache. this..., ...daches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise, I basically dont exercise classic desk-rel..., ...er but maybe not enough maybe 3 glasses today. I had a big project this week so barely moved from my desk. actually started drinking more coffee to stay awake, like 3 or 4 cups coffee i..., ...s again this week. thought I was drinking more water but maybe not enough maybe 3 glasses today. I had a big project this week so barely moved from my desk. actually sta..., ...t I was drinking more water but maybe not enough maybe 3 glasses today. I had a big project this week so barely moved from my desk. actually started drinking more coffee t..., headache is back. honestly I dont even know why I am surprised barely any water. yes massive release this week you already know the answer here. busy week, no...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S02",
+          "signal_type": "symptom",
+          "extracted_text": "...headaches in the afternoon, like around 3 or 4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy...",
+          "timestamp": "2026-01-12T10:30:00"
+        },
+        {
+          "session_id": "USR001_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy at work. yes screens all day afternoon he...",
+          "timestamp": "2026-01-12T10:30:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "symptom",
+          "extracted_text": "headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit fo...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...daches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise, I basically dont exercise classic desk-rel...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S06",
+          "signal_type": "symptom",
+          "extracted_text": "random question, been getting headaches again this week. thought I was drinking more water but maybe not enough maybe 3...",
+          "timestamp": "2026-02-14T11:05:00"
+        },
+        {
+          "session_id": "USR001_S06",
+          "signal_type": "trigger",
+          "extracted_text": "...s again this week. thought I was drinking more water but maybe not enough maybe 3 glasses today. I had a big project this week so barely moved from my desk. actually sta...",
+          "timestamp": "2026-02-14T11:05:00"
+        },
+        {
+          "session_id": "USR001_S06",
+          "signal_type": "trigger",
+          "extracted_text": "...t I was drinking more water but maybe not enough maybe 3 glasses today. I had a big project this week so barely moved from my desk. actually started drinking more coffee t...",
+          "timestamp": "2026-02-14T11:05:00"
+        },
+        {
+          "session_id": "USR001_S06",
+          "signal_type": "trigger",
+          "extracted_text": "...er but maybe not enough maybe 3 glasses today. I had a big project this week so barely moved from my desk. actually started drinking more coffee to stay awake, like 3 or 4 cups coffee i...",
+          "timestamp": "2026-02-14T11:05:00"
+        },
+        {
+          "session_id": "USR001_S08",
+          "signal_type": "symptom",
+          "extracted_text": "...uary week 2, and now march week 2 - all during high pressure work periods. your headaches are a hydration and workload signal not a random health issue",
+          "timestamp": "2026-03-08T16:40:00"
+        },
+        {
+          "session_id": "USR001_S08",
+          "signal_type": "trigger",
+          "extracted_text": "headache is back. honestly I dont even know why I am surprised barely any water. yes massive release this week you already know the answer here. busy week, no...",
+          "timestamp": "2026-03-08T16:40:00"
+        },
+        {
+          "session_id": "USR001_S08",
+          "signal_type": "trigger",
+          "extracted_text": "...che is back. honestly I dont even know why I am surprised barely any water. yes massive release this week you already know the answer here. busy week, no water, headache. this...",
+          "timestamp": "2026-03-08T16:40:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "improvement",
+          "extracted_text": "headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours...",
+          "timestamp": "2026-01-19T09:15:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Coincidental timing of headache and low water intake",
+        "Unknown confounding variable driving both headache and low water intake",
+        "One of the secondary factors (sedentary behavior, work deadline stress) may be the actual driver"
+      ]
+    },
+    {
+      "pattern_id": "P-003",
+      "user_id": "USR001",
+      "short_title": "Late night eating triggering delayed fatigue after 30 days",
+      "evidence_sessions": [
+        "USR001_S01",
+        "USR001_S05"
+      ],
+      "temporal_reasoning": "Late night eating first noted on Jan 05. Fatigue first appeared on Feb 04, a gap of 30 days. Fatigue reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 29 days. linking feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o... to ...like a burning kind of pain in the middle started maybe around midnight. I had dinner pretty late, like around 11:30pm after a long work session. the pain comes and goes sounds...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S01",
+          "signal_type": "trigger",
+          "extracted_text": "...like a burning kind of pain in the middle started maybe around midnight. I had dinner pretty late, like around 11:30pm after a long work session. the pain comes and goes sounds...",
+          "timestamp": "2026-01-05T23:14:00"
+        },
+        {
+          "session_id": "USR001_S05",
+          "signal_type": "symptom",
+          "extracted_text": "feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o...",
+          "timestamp": "2026-02-04T15:22:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Fatigue may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain fatigue"
+      ]
+    },
+    {
+      "pattern_id": "P-004",
+      "user_id": "USR001",
+      "short_title": "Low water intake triggering delayed fatigue after 23 days",
+      "evidence_sessions": [
+        "USR001_S02",
+        "USR001_S05"
+      ],
+      "temporal_reasoning": "Low water intake first noted on Jan 12. Fatigue first appeared on Feb 04, a gap of 23 days. Fatigue reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 23 days. linking feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o... to ...4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy at work. yes screens all day afternoon he...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy at work. yes screens all day afternoon he...",
+          "timestamp": "2026-01-12T10:30:00"
+        },
+        {
+          "session_id": "USR001_S05",
+          "signal_type": "symptom",
+          "extracted_text": "feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o...",
+          "timestamp": "2026-02-04T15:22:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Fatigue may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain fatigue"
+      ]
+    },
+    {
+      "pattern_id": "P-005",
+      "user_id": "USR001",
+      "short_title": "Sedentary behavior triggering delayed fatigue after 16 days",
+      "evidence_sessions": [
+        "USR001_S03",
+        "USR001_S05"
+      ],
+      "temporal_reasoning": "Sedentary behavior first noted on Jan 19. Fatigue first appeared on Feb 04, a gap of 16 days. Fatigue reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 16 days. linking feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o... to ...daches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise, I basically dont exercise classic desk-rel...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...daches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise, I basically dont exercise classic desk-rel...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S05",
+          "signal_type": "symptom",
+          "extracted_text": "feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o...",
+          "timestamp": "2026-02-04T15:22:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Fatigue may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain fatigue"
+      ]
+    },
+    {
+      "pattern_id": "P-006",
+      "user_id": "USR001",
+      "short_title": "Late night eating causing compounding symptoms: headache, lower back pain, stomach pain, fatigue",
+      "evidence_sessions": [
+        "USR001_S01",
+        "USR001_S02",
+        "USR001_S03",
+        "USR001_S04",
+        "USR001_S05"
+      ],
+      "temporal_reasoning": "Late night eating started on Jan 05. Headache first appeared on Jan 12 (6 days after trigger). Lower back pain first appeared on Jan 19 (13 days after trigger). Stomach pain first appeared on Jan 28 (22 days after trigger). Fatigue first appeared on Feb 04 (30 days after trigger).",
+      "confidence": "very high",
+      "justification": "5 evidence sessions across 2 month(s). spanning 29 days. linking ...headaches in the afternoon, like around 3 or 4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy..., feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o..., headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit fo..., headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise,..., my stomach has been hurting since last night, like a burning kind of pain in the middle started maybe aroun..., stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes w... to ...like a burning kind of pain in the middle started maybe around midnight. I had dinner pretty late, like around 11:30pm after a long work session. the pain comes and goes sounds..., stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes work has been intense. yeah same place this is the...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S01",
+          "signal_type": "symptom",
+          "extracted_text": "my stomach has been hurting since last night, like a burning kind of pain in the middle started maybe aroun...",
+          "timestamp": "2026-01-05T23:14:00"
+        },
+        {
+          "session_id": "USR001_S01",
+          "signal_type": "trigger",
+          "extracted_text": "...like a burning kind of pain in the middle started maybe around midnight. I had dinner pretty late, like around 11:30pm after a long work session. the pain comes and goes sounds...",
+          "timestamp": "2026-01-05T23:14:00"
+        },
+        {
+          "session_id": "USR001_S02",
+          "signal_type": "symptom",
+          "extracted_text": "...headaches in the afternoon, like around 3 or 4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy...",
+          "timestamp": "2026-01-12T10:30:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "symptom",
+          "extracted_text": "headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit fo...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "symptom",
+          "extracted_text": "headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise,...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S04",
+          "signal_type": "symptom",
+          "extracted_text": "stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes w...",
+          "timestamp": "2026-01-28T00:42:00"
+        },
+        {
+          "session_id": "USR001_S04",
+          "signal_type": "trigger",
+          "extracted_text": "stomach is acting up again. same burning pain as before ate around 11pm again, had a deadline. yes work has been intense. yeah same place this is the...",
+          "timestamp": "2026-01-28T00:42:00"
+        },
+        {
+          "session_id": "USR001_S05",
+          "signal_type": "symptom",
+          "extracted_text": "feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o...",
+          "timestamp": "2026-02-04T15:22:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than late night eating",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    },
+    {
+      "pattern_id": "P-007",
+      "user_id": "USR001",
+      "short_title": "Low water intake causing compounding symptoms: headache, lower back pain, fatigue",
+      "evidence_sessions": [
+        "USR001_S02",
+        "USR001_S03",
+        "USR001_S05"
+      ],
+      "temporal_reasoning": "Low water intake started on Jan 12. Headache first appeared on Jan 19 (7 days after trigger). Lower back pain first appeared on Jan 19 (7 days after trigger). Fatigue first appeared on Feb 04 (23 days after trigger).",
+      "confidence": "medium",
+      "justification": "3 evidence sessions across 2 month(s). spanning 23 days. linking ...headaches in the afternoon, like around 3 or 4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy..., feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o..., headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit fo..., headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise,... to ...4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy at work. yes screens all day afternoon he...",
+      "supporting_signals": [
+        {
+          "session_id": "USR001_S02",
+          "signal_type": "symptom",
+          "extracted_text": "...headaches in the afternoon, like around 3 or 4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy...",
+          "timestamp": "2026-01-12T10:30:00"
+        },
+        {
+          "session_id": "USR001_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...4pm every day this week more like pressure, behind my eyes. honestly I probably drink like 2 glasses of water the whole day when I am busy at work. yes screens all day afternoon he...",
+          "timestamp": "2026-01-12T10:30:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "symptom",
+          "extracted_text": "headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit fo...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S03",
+          "signal_type": "symptom",
+          "extracted_text": "headaches are mostly gone. but now my lower back is bothering me both sides. yes I sit for like 10 hours straight sometimes. no new exercise,...",
+          "timestamp": "2026-01-19T09:15:00"
+        },
+        {
+          "session_id": "USR001_S05",
+          "signal_type": "symptom",
+          "extracted_text": "feeling really tired lately, like even after 7 hours of sleep I wake up exhausted sleep around 1am o...",
+          "timestamp": "2026-02-04T15:22:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than low water intake",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    },
+    {
+      "pattern_id": "P-008",
+      "user_id": "USR002",
+      "short_title": "Recurring acne correlated with dairy consumption",
+      "evidence_sessions": [
+        "USR002_S02",
+        "USR002_S03",
+        "USR002_S04",
+        "USR002_S07",
+        "USR002_S08",
+        "USR002_S05",
+        "USR002_S09"
+      ],
+      "temporal_reasoning": "Acne appeared in 5 sessions. Dairy consumption co-occurred in 5 of those (100%). Dates: Jan 15, Jan 22, Feb 01, Feb 27, Mar 07. Intervention 'dairy reduction' on Jan 15 followed by worsening after 7 days. Intervention 'dairy reduction' on Jan 22 followed by improvement after 10 days. Intervention 'dairy reduction' on Feb 01 followed by worsening after 9 days. Intervention 'increasing calorie intake' on Jan 15 followed by worsening after 7 days. Intervention 'increasing calorie intake' on Feb 10 followed by worsening after 17 days. Intervention 'increasing calorie intake' on Feb 19 followed by worsening after 8 days. Intervention 'increasing calorie intake' on Mar 07 followed by improvement after 10 days. Intervention 'dairy reintroduction' on Feb 27 followed by improvement after 8 days.",
+      "confidence": "very high",
+      "justification": "7 evidence sessions across 3 month(s). spanning 61 days. confirmed by both intervention improvement and recurrence on re-exposure. linking ...hich is actually a good sign. keep dairy low and when you do have it observe if breakouts follow within 48-72 hours. that window will tell you exactly how sensitive you..., I added back dairy this week because I was craving it and I am scared the acne will come back just yogurt once a day. skin seems okay so far, 4 days in small..., hair fall is better since I started eating more. skin broke out again this week though. had paneer 3 days in a row two updates noted. hair impr..., skin has been breaking out a lot on my cheeks and chin this week. I dont usually get this much acne no..., still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically n... to ...better since I started eating more. skin broke out again this week though. had paneer 3 days in a row two updates noted. hair improvement confirms the calorie increa..., ...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo..., I added back dairy this week because I was craving it and I am scared the acne will come back just..., I cut dairy for a week and my skin is so much clearer honestly. like noticeably better that..., still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically no I actually increased it. need the pr...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "symptom",
+          "extracted_text": "skin has been breaking out a lot on my cheeks and chin this week. I dont usually get this much acne no...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S03",
+          "signal_type": "symptom",
+          "extracted_text": "still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically n...",
+          "timestamp": "2026-01-22T21:10:00"
+        },
+        {
+          "session_id": "USR002_S03",
+          "signal_type": "trigger",
+          "extracted_text": "still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically no I actually increased it. need the pr...",
+          "timestamp": "2026-01-22T21:10:00"
+        },
+        {
+          "session_id": "USR002_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...hich is actually a good sign. keep dairy low and when you do have it observe if breakouts follow within 48-72 hours. that window will tell you exactly how sensitive you...",
+          "timestamp": "2026-02-01T10:00:00"
+        },
+        {
+          "session_id": "USR002_S04",
+          "signal_type": "trigger",
+          "extracted_text": "I cut dairy for a week and my skin is so much clearer honestly. like noticeably better that...",
+          "timestamp": "2026-02-01T10:00:00"
+        },
+        {
+          "session_id": "USR002_S07",
+          "signal_type": "symptom",
+          "extracted_text": "I added back dairy this week because I was craving it and I am scared the acne will come back just yogurt once a day. skin seems okay so far, 4 days in small...",
+          "timestamp": "2026-02-27T11:20:00"
+        },
+        {
+          "session_id": "USR002_S07",
+          "signal_type": "trigger",
+          "extracted_text": "I added back dairy this week because I was craving it and I am scared the acne will come back just...",
+          "timestamp": "2026-02-27T11:20:00"
+        },
+        {
+          "session_id": "USR002_S08",
+          "signal_type": "symptom",
+          "extracted_text": "hair fall is better since I started eating more. skin broke out again this week though. had paneer 3 days in a row two updates noted. hair impr...",
+          "timestamp": "2026-03-07T22:15:00"
+        },
+        {
+          "session_id": "USR002_S08",
+          "signal_type": "trigger",
+          "extracted_text": "...better since I started eating more. skin broke out again this week though. had paneer 3 days in a row two updates noted. hair improvement confirms the calorie increa...",
+          "timestamp": "2026-03-07T22:15:00"
+        },
+        {
+          "session_id": "USR002_S03",
+          "signal_type": "intervention",
+          "extracted_text": "...hormonal triggers, and dairy can amplify this. I would really suggest a 2 week dairy reduction trial. find protein from lentils, eggs, or chicken instead",
+          "timestamp": "2026-01-22T21:10:00"
+        },
+        {
+          "session_id": "USR002_S04",
+          "signal_type": "intervention",
+          "extracted_text": "I cut dairy for a week and my skin is so much clearer honestly. like noticeably better that...",
+          "timestamp": "2026-02-01T10:00:00"
+        },
+        {
+          "session_id": "USR002_S04",
+          "signal_type": "improvement",
+          "extracted_text": "I cut dairy for a week and my skin is so much clearer honestly. like noticeably better that clarity within one week confirms dairy was the trigger for your skin. your...",
+          "timestamp": "2026-02-01T10:00:00"
+        },
+        {
+          "session_id": "USR002_S09",
+          "signal_type": "intervention",
+          "extracted_text": "feeling so much better overall since eating more. hair fall has basically stopped. skin is clearer. just wanted to update this i...",
+          "timestamp": "2026-03-18T09:40:00"
+        },
+        {
+          "session_id": "USR002_S09",
+          "signal_type": "improvement",
+          "extracted_text": "feeling so much better overall since eating more. hair fall has basically stopped. skin is clearer. just wanted to update this is a great update. the hair fall s...",
+          "timestamp": "2026-03-18T09:40:00"
+        },
+        {
+          "session_id": "USR002_S09",
+          "signal_type": "improvement",
+          "extracted_text": "feeling so much better overall since eating more. hair fall has basically stopped. skin is clearer. just wanted to update this is a great update. the hair fall s...",
+          "timestamp": "2026-03-18T09:40:00"
+        },
+        {
+          "session_id": "USR002_S08",
+          "signal_type": "improvement",
+          "extracted_text": "...out again this week though. had paneer 3 days in a row two updates noted. hair improvement confirms the calorie increase is working - your body is coming out of conservat...",
+          "timestamp": "2026-03-07T22:15:00"
+        },
+        {
+          "session_id": "USR002_S08",
+          "signal_type": "improvement",
+          "extracted_text": "...broke out again this week though. had paneer 3 days in a row two updates noted. hair improvement confirms the calorie increase is working - your body is coming out of conservat...",
+          "timestamp": "2026-03-07T22:15:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Coincidental timing of acne and dairy consumption",
+        "Unknown confounding variable driving both acne and dairy consumption"
+      ]
+    },
+    {
+      "pattern_id": "P-009",
+      "user_id": "USR002",
+      "short_title": "Severe calorie restriction triggering delayed fatigue after 33 days",
+      "evidence_sessions": [
+        "USR002_S01",
+        "USR002_S05"
+      ],
+      "temporal_reasoning": "Severe calorie restriction first noted on Jan 08. Fatigue first appeared on Feb 10, a gap of 33 days. Fatigue reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 32 days. linking I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories... to ...el exhausted. also my workouts feel so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is..., I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faster. eating maybe 700-800 calories a day energy is okay so fa...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S01",
+          "signal_type": "trigger",
+          "extracted_text": "I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faster. eating maybe 700-800 calories a day energy is okay so fa...",
+          "timestamp": "2026-01-08T08:30:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "trigger",
+          "extracted_text": "...el exhausted. also my workouts feel so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is...",
+          "timestamp": "2026-02-10T07:55:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Fatigue may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain fatigue"
+      ]
+    },
+    {
+      "pattern_id": "P-010",
+      "user_id": "USR002",
+      "short_title": "Severe calorie restriction triggering delayed brain fog after 33 days",
+      "evidence_sessions": [
+        "USR002_S01",
+        "USR002_S05"
+      ],
+      "temporal_reasoning": "Severe calorie restriction first noted on Jan 08. Brain fog first appeared on Feb 10, a gap of 33 days. Brain fog reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 32 days. linking ...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your... to ...el exhausted. also my workouts feel so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is..., I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faster. eating maybe 700-800 calories a day energy is okay so fa...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S01",
+          "signal_type": "trigger",
+          "extracted_text": "I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faster. eating maybe 700-800 calories a day energy is okay so fa...",
+          "timestamp": "2026-01-08T08:30:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "trigger",
+          "extracted_text": "...el exhausted. also my workouts feel so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is...",
+          "timestamp": "2026-02-10T07:55:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Brain fog may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain brain fog"
+      ]
+    },
+    {
+      "pattern_id": "P-011",
+      "user_id": "USR002",
+      "short_title": "Intermittent fasting triggering delayed hair fall after 42 days",
+      "evidence_sessions": [
+        "USR002_S01",
+        "USR002_S06",
+        "USR002_S08",
+        "USR002_S09"
+      ],
+      "temporal_reasoning": "Intermittent fasting first noted on Jan 08. Hair fall first appeared on Feb 19, a gap of 42 days. Hair fall reported in 3 subsequent session(s).",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 3 month(s). spanning 69 days. linking feeling so much better overall since eating more. hair fall has basically stopped. skin is clearer. just wanted to update this is a great u..., hair fall is better since I started eating more. skin broke out again this week though. h..., my hair has been falling out so much. like way more than usual. finding it everywhere, pillow, shower, h... to ...ands when I run fingers through maybe 2 weeks ago. I mean I started my diet and fasting in january. stress is normal I guess this is important. you started severe calo..., I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faste...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S01",
+          "signal_type": "trigger",
+          "extracted_text": "I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faste...",
+          "timestamp": "2026-01-08T08:30:00"
+        },
+        {
+          "session_id": "USR002_S06",
+          "signal_type": "symptom",
+          "extracted_text": "my hair has been falling out so much. like way more than usual. finding it everywhere, pillow, shower, h...",
+          "timestamp": "2026-02-19T20:30:00"
+        },
+        {
+          "session_id": "USR002_S06",
+          "signal_type": "trigger",
+          "extracted_text": "...ands when I run fingers through maybe 2 weeks ago. I mean I started my diet and fasting in january. stress is normal I guess this is important. you started severe calo...",
+          "timestamp": "2026-02-19T20:30:00"
+        },
+        {
+          "session_id": "USR002_S08",
+          "signal_type": "symptom",
+          "extracted_text": "hair fall is better since I started eating more. skin broke out again this week though. h...",
+          "timestamp": "2026-03-07T22:15:00"
+        },
+        {
+          "session_id": "USR002_S09",
+          "signal_type": "symptom",
+          "extracted_text": "feeling so much better overall since eating more. hair fall has basically stopped. skin is clearer. just wanted to update this is a great u...",
+          "timestamp": "2026-03-18T09:40:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Hair fall may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain hair fall"
+      ]
+    },
+    {
+      "pattern_id": "P-012",
+      "user_id": "USR002",
+      "short_title": "Dairy consumption triggering delayed fatigue after 26 days",
+      "evidence_sessions": [
+        "USR002_S02",
+        "USR002_S05"
+      ],
+      "temporal_reasoning": "Dairy consumption first noted on Jan 15. Fatigue first appeared on Feb 10, a gap of 26 days. Fatigue reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 25 days. linking I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories... to ...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories...",
+          "timestamp": "2026-02-10T07:55:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Fatigue may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain fatigue"
+      ]
+    },
+    {
+      "pattern_id": "P-013",
+      "user_id": "USR002",
+      "short_title": "Dairy consumption triggering delayed brain fog after 26 days",
+      "evidence_sessions": [
+        "USR002_S02",
+        "USR002_S05"
+      ],
+      "temporal_reasoning": "Dairy consumption first noted on Jan 15. Brain fog first appeared on Feb 10, a gap of 26 days. Brain fog reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 25 days. linking ...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your... to ...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your...",
+          "timestamp": "2026-02-10T07:55:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Brain fog may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain brain fog"
+      ]
+    },
+    {
+      "pattern_id": "P-014",
+      "user_id": "USR002",
+      "short_title": "Severe calorie restriction causing compounding symptoms: acne, fatigue, brain fog, hair fall",
+      "evidence_sessions": [
+        "USR002_S01",
+        "USR002_S02",
+        "USR002_S05",
+        "USR002_S06"
+      ],
+      "temporal_reasoning": "Severe calorie restriction started on Jan 08. Acne first appeared on Jan 15 (7 days after trigger). Fatigue first appeared on Feb 10 (33 days after trigger). Brain fog first appeared on Feb 10 (33 days after trigger). Hair fall first appeared on Feb 19 (42 days after trigger).",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 2 month(s). spanning 42 days. linking ...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your..., I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories..., my hair has been falling out so much. like way more than usual. finding it everywhere, pillow, shower, h..., skin has been breaking out a lot on my cheeks and chin this week. I dont usually get this much acne no... to ...el exhausted. also my workouts feel so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is..., ...k yogurt and paneer a lot for protein since I am trying to hit protein goals on low calories. cheeks mostly cheek acne is often linked to diet, particularly dairy. some peo..., ...ting in january. stress is normal I guess this is important. you started severe calorie restriction around january 8th. hair fall typically manifests 8-12 weeks after a nutritiona..., I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faster. eating maybe 700-800 calories a day energy is okay so fa...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S01",
+          "signal_type": "trigger",
+          "extracted_text": "I started intermittent fasting this week, doing 16:8. also cutting down a lot on calories to lose weight faster. eating maybe 700-800 calories a day energy is okay so fa...",
+          "timestamp": "2026-01-08T08:30:00"
+        },
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "symptom",
+          "extracted_text": "skin has been breaking out a lot on my cheeks and chin this week. I dont usually get this much acne no...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...k yogurt and paneer a lot for protein since I am trying to hit protein goals on low calories. cheeks mostly cheek acne is often linked to diet, particularly dairy. some peo...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "trigger",
+          "extracted_text": "...el exhausted. also my workouts feel so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S06",
+          "signal_type": "symptom",
+          "extracted_text": "my hair has been falling out so much. like way more than usual. finding it everywhere, pillow, shower, h...",
+          "timestamp": "2026-02-19T20:30:00"
+        },
+        {
+          "session_id": "USR002_S06",
+          "signal_type": "trigger",
+          "extracted_text": "...ting in january. stress is normal I guess this is important. you started severe calorie restriction around january 8th. hair fall typically manifests 8-12 weeks after a nutritiona...",
+          "timestamp": "2026-02-19T20:30:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than severe calorie restriction",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    },
+    {
+      "pattern_id": "P-015",
+      "user_id": "USR002",
+      "short_title": "Dairy consumption causing compounding symptoms: acne, fatigue, brain fog, hair fall",
+      "evidence_sessions": [
+        "USR002_S02",
+        "USR002_S03",
+        "USR002_S05",
+        "USR002_S06"
+      ],
+      "temporal_reasoning": "Dairy consumption started on Jan 15. Acne first appeared on Jan 22 (7 days after trigger). Fatigue first appeared on Feb 10 (26 days after trigger). Brain fog first appeared on Feb 10 (26 days after trigger). Hair fall first appeared on Feb 19 (35 days after trigger).",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 2 month(s). spanning 35 days. linking ...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your..., I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories..., my hair has been falling out so much. like way more than usual. finding it everywhere, pillow, shower, h..., skin has been breaking out a lot on my cheeks and chin this week. I dont usually get this much acne no..., still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically n... to ...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo..., still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically no I actually increased it. need the pr...",
+      "supporting_signals": [
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "symptom",
+          "extracted_text": "skin has been breaking out a lot on my cheeks and chin this week. I dont usually get this much acne no...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...uch acne no new products. I have been eating more dairy lately actually, having greek yogurt and paneer a lot for protein since I am trying to hit protein goals on low calo...",
+          "timestamp": "2026-01-15T19:45:00"
+        },
+        {
+          "session_id": "USR002_S03",
+          "signal_type": "symptom",
+          "extracted_text": "still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically n...",
+          "timestamp": "2026-01-22T21:10:00"
+        },
+        {
+          "session_id": "USR002_S03",
+          "signal_type": "trigger",
+          "extracted_text": "still breaking out. maybe even worse. I added more dairy this week, paneer twice a day basically no I actually increased it. need the pr...",
+          "timestamp": "2026-01-22T21:10:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "I have been really tired lately. sleeping 8 hours but feel exhausted. also my workouts feel so much harder than they should still doing 700 calories...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S05",
+          "signal_type": "symptom",
+          "extracted_text": "...el so much harder than they should still doing 700 calories most days. yes some brain fog. maybe 3 weeks now? 700 calories over 5 weeks is significantly below what your...",
+          "timestamp": "2026-02-10T07:55:00"
+        },
+        {
+          "session_id": "USR002_S06",
+          "signal_type": "symptom",
+          "extracted_text": "my hair has been falling out so much. like way more than usual. finding it everywhere, pillow, shower, h...",
+          "timestamp": "2026-02-19T20:30:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than dairy consumption",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    },
+    {
+      "pattern_id": "P-016",
+      "user_id": "USR003",
+      "short_title": "Recurring fatigue correlated with high carbohydrate meal during sleep deprivation and late night screen use",
+      "evidence_sessions": [
+        "USR003_S01",
+        "USR003_S03",
+        "USR003_S04",
+        "USR003_S06",
+        "USR003_S07",
+        "USR003_S05",
+        "USR003_S08"
+      ],
+      "temporal_reasoning": "Fatigue appeared in 5 sessions. High carbohydrate meal co-occurred in 3 of those (60%). Dates: Jan 06, Jan 23, Feb 03, Feb 20, Feb 28. Sleep deprivation also present in 2 sessions (40%). Late night screen use also present in 2 sessions (40%). Intervention 'screen time limit' on Feb 03 followed by worsening after 8 days. Intervention 'screen time limit' on Feb 28 followed by worsening after 10 days. Intervention 'increasing water intake' on Feb 11 followed by improvement after 9 days. Intervention 'adding protein to lunch' on Feb 20 followed by worsening after 8 days.",
+      "confidence": "very high",
+      "justification": "7 evidence sessions across 3 month(s). spanning 63 days. confirmed by both intervention improvement and recurrence on re-exposure. linking ...ill 1 or 2am most nights. I know I shouldnt but I cant seem to stop. now I feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit..., ...quickly confirms the blood sugar crash was the primary cause of your afternoon fatigue. your body responds well to this change. keep the protein in lunch as a non-neg..., ...ry day the combination of chronic sleep deprivation from late night screen use, waking up tired every day, and low level floating anxiety are all connected. sleep debt creates..., I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some..., [tag] fatigue to .... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not..., ...protein. after biscuits I felt okay for an hour then crashed again biscuits are high sugar so they caused another smaller spike and crash. you need to replace some rice w..., I have been staying up late watching reels and series, like till 1 or 2am most nights. I know I shouldnt but I cant seem t..., I have been staying up late watching reels and series, like till 1 or 2am most nights. I know I shouldnt but I cant seem to stop. now I feel tired all da..., [tag] blood sugar, [tag] sleep deprivation, still on the late night screen thing. I tried stopping at 11:30 but I just pick the phone up again. also feeli...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "symptom",
+          "extracted_text": "I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "trigger",
+          "extracted_text": ".... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...protein. after biscuits I felt okay for an hour then crashed again biscuits are high sugar so they caused another smaller spike and crash. you need to replace some rice w...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "symptom",
+          "extracted_text": "[tag] fatigue",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ill 1 or 2am most nights. I know I shouldnt but I cant seem to stop. now I feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "trigger",
+          "extracted_text": "I have been staying up late watching reels and series, like till 1 or 2am most nights. I know I shouldnt but I cant seem t...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "trigger",
+          "extracted_text": "I have been staying up late watching reels and series, like till 1 or 2am most nights. I know I shouldnt but I cant seem to stop. now I feel tired all da...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S06",
+          "signal_type": "symptom",
+          "extracted_text": "...quickly confirms the blood sugar crash was the primary cause of your afternoon fatigue. your body responds well to this change. keep the protein in lunch as a non-neg...",
+          "timestamp": "2026-02-20T13:00:00"
+        },
+        {
+          "session_id": "USR003_S06",
+          "signal_type": "trigger",
+          "extracted_text": "[tag] blood sugar",
+          "timestamp": "2026-02-20T13:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...ry day the combination of chronic sleep deprivation from late night screen use, waking up tired every day, and low level floating anxiety are all connected. sleep debt creates...",
+          "timestamp": "2026-02-28T20:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "trigger",
+          "extracted_text": "still on the late night screen thing. I tried stopping at 11:30 but I just pick the phone up again. also feeli...",
+          "timestamp": "2026-02-28T20:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "trigger",
+          "extracted_text": "[tag] sleep deprivation",
+          "timestamp": "2026-02-28T20:00:00"
+        },
+        {
+          "session_id": "USR003_S06",
+          "signal_type": "improvement",
+          "extracted_text": "...added chicken to my lunch this week and the 2pm crash is so much better. like I actually got through a full afternoon yesterday without feeling dead protein at lunch making a measurable difference...",
+          "timestamp": "2026-02-20T13:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Coincidental timing of fatigue and high carbohydrate meal",
+        "Unknown confounding variable driving both fatigue and high carbohydrate meal",
+        "One of the secondary factors (sleep deprivation, late night screen use) may be the actual driver"
+      ]
+    },
+    {
+      "pattern_id": "P-017",
+      "user_id": "USR003",
+      "short_title": "Recurring post-lunch energy crash correlated with high carbohydrate meal",
+      "evidence_sessions": [
+        "USR003_S01",
+        "USR003_S03",
+        "USR003_S06"
+      ],
+      "temporal_reasoning": "Post-lunch energy crash appeared in 3 sessions. High carbohydrate meal co-occurred in 3 of those (100%). Dates: Jan 06, Jan 23, Feb 20.",
+      "confidence": "very high",
+      "justification": "3 evidence sessions across 2 month(s). spanning 44 days. linking I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep..., good news, I added chicken to my lunch this week and the 2pm crash is so much better. like I actually got through a full afternoon yesterday witho..., the 2pm crash is still happening. I tried eating less rice but I was so hungry by 3pm and end... to .... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not..., ...protein. after biscuits I felt okay for an hour then crashed again biscuits are high sugar so they caused another smaller spike and crash. you need to replace some rice w..., [tag] blood sugar",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "symptom",
+          "extracted_text": "I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "trigger",
+          "extracted_text": ".... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "symptom",
+          "extracted_text": "the 2pm crash is still happening. I tried eating less rice but I was so hungry by 3pm and end...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...protein. after biscuits I felt okay for an hour then crashed again biscuits are high sugar so they caused another smaller spike and crash. you need to replace some rice w...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S06",
+          "signal_type": "symptom",
+          "extracted_text": "good news, I added chicken to my lunch this week and the 2pm crash is so much better. like I actually got through a full afternoon yesterday witho...",
+          "timestamp": "2026-02-20T13:00:00"
+        },
+        {
+          "session_id": "USR003_S06",
+          "signal_type": "trigger",
+          "extracted_text": "[tag] blood sugar",
+          "timestamp": "2026-02-20T13:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Coincidental timing of post-lunch energy crash and high carbohydrate meal",
+        "Unknown confounding variable driving both post-lunch energy crash and high carbohydrate meal"
+      ]
+    },
+    {
+      "pattern_id": "P-018",
+      "user_id": "USR003",
+      "short_title": "Recurring menstrual cramps correlated with sleep deprivation during late night screen use",
+      "evidence_sessions": [
+        "USR003_S02",
+        "USR003_S05",
+        "USR003_S08",
+        "USR003_S09"
+      ],
+      "temporal_reasoning": "Menstrual cramps appeared in 4 sessions. Sleep deprivation co-occurred in 4 of those (100%). Dates: Jan 14, Feb 11, Mar 10, Mar 16. Late night screen use also present in 2 sessions (50%).",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 3 month(s). spanning 60 days. linking cramps were still bad this month but work was actually fine. I am confused. you said s..., period coming in a few days and cramps started again. I am dreading it. this has been happening every month now stress is actu..., period cramps are really bad this month again. worse than usual. I am using a hot water bottle but not helpi..., period is due in about a week and my cramps have started already. usually my cramps are manageable but this month they feel stronger aro... to ...day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol levels from stress. you..., ...factor across all three months is not just work stress but disrupted sleep from late night screen use. elevated cortisol from chronic sleep deprivation appears to be the consist..., ...happening every month now stress is actually low this month, no big deadlines. sleep is still bad because of screens. day 22 this is really useful data. january cramps bad, high..., ...ortant update. january high stress equals bad cramps. february high stress plus bad sleep equals very bad cramps. march low stress but still bad sleep equals bad cramps...., ...so period in about 5 days. work is still very stressful, another big deadline. sleep is bad still, the late night thing this is the second month where your cramps are wors..., [tag] screens",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "symptom",
+          "extracted_text": "period is due in about a week and my cramps have started already. usually my cramps are manageable but this month they feel stronger aro...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol levels from stress. you...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S05",
+          "signal_type": "symptom",
+          "extracted_text": "period cramps are really bad this month again. worse than usual. I am using a hot water bottle but not helpi...",
+          "timestamp": "2026-02-11T22:30:00"
+        },
+        {
+          "session_id": "USR003_S05",
+          "signal_type": "trigger",
+          "extracted_text": "...so period in about 5 days. work is still very stressful, another big deadline. sleep is bad still, the late night thing this is the second month where your cramps are wors...",
+          "timestamp": "2026-02-11T22:30:00"
+        },
+        {
+          "session_id": "USR003_S08",
+          "signal_type": "symptom",
+          "extracted_text": "period coming in a few days and cramps started again. I am dreading it. this has been happening every month now stress is actu...",
+          "timestamp": "2026-03-10T21:45:00"
+        },
+        {
+          "session_id": "USR003_S08",
+          "signal_type": "trigger",
+          "extracted_text": "...happening every month now stress is actually low this month, no big deadlines. sleep is still bad because of screens. day 22 this is really useful data. january cramps bad, high...",
+          "timestamp": "2026-03-10T21:45:00"
+        },
+        {
+          "session_id": "USR003_S08",
+          "signal_type": "trigger",
+          "extracted_text": "[tag] screens",
+          "timestamp": "2026-03-10T21:45:00"
+        },
+        {
+          "session_id": "USR003_S09",
+          "signal_type": "symptom",
+          "extracted_text": "cramps were still bad this month but work was actually fine. I am confused. you said s...",
+          "timestamp": "2026-03-16T10:20:00"
+        },
+        {
+          "session_id": "USR003_S09",
+          "signal_type": "trigger",
+          "extracted_text": "...factor across all three months is not just work stress but disrupted sleep from late night screen use. elevated cortisol from chronic sleep deprivation appears to be the consist...",
+          "timestamp": "2026-03-16T10:20:00"
+        },
+        {
+          "session_id": "USR003_S09",
+          "signal_type": "trigger",
+          "extracted_text": "...ortant update. january high stress equals bad cramps. february high stress plus bad sleep equals very bad cramps. march low stress but still bad sleep equals bad cramps....",
+          "timestamp": "2026-03-16T10:20:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Coincidental timing of menstrual cramps and sleep deprivation",
+        "Unknown confounding variable driving both menstrual cramps and sleep deprivation",
+        "One of the secondary factors (late night screen use) may be the actual driver"
+      ]
+    },
+    {
+      "pattern_id": "P-019",
+      "user_id": "USR003",
+      "short_title": "High carbohydrate meal triggering delayed headache after 28 days",
+      "evidence_sessions": [
+        "USR003_S01",
+        "USR003_S04"
+      ],
+      "temporal_reasoning": "High carbohydrate meal first noted on Jan 06. Headache first appeared on Feb 03, a gap of 28 days. Headache reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 28 days. linking ...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week to .... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "trigger",
+          "extracted_text": ".... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+          "timestamp": "2026-02-03T19:45:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Headache may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain headache"
+      ]
+    },
+    {
+      "pattern_id": "P-020",
+      "user_id": "USR003",
+      "short_title": "High carbohydrate meal triggering delayed low mood after 28 days",
+      "evidence_sessions": [
+        "USR003_S01",
+        "USR003_S04"
+      ],
+      "temporal_reasoning": "High carbohydrate meal first noted on Jan 06. Low mood first appeared on Feb 03, a gap of 28 days. Low mood reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 28 days. linking ...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe... to .... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "trigger",
+          "extracted_text": ".... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe...",
+          "timestamp": "2026-02-03T19:45:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Low mood may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain low mood"
+      ]
+    },
+    {
+      "pattern_id": "P-021",
+      "user_id": "USR003",
+      "short_title": "High carbohydrate meal triggering delayed anxiety after 53 days",
+      "evidence_sessions": [
+        "USR003_S01",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "High carbohydrate meal first noted on Jan 06. Anxiety first appeared on Feb 28, a gap of 53 days. Anxiety reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 53 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s... to .... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "trigger",
+          "extracted_text": ".... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Anxiety may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain anxiety"
+      ]
+    },
+    {
+      "pattern_id": "P-022",
+      "user_id": "USR003",
+      "short_title": "Work deadline stress triggering delayed headache after 20 days",
+      "evidence_sessions": [
+        "USR003_S02",
+        "USR003_S04"
+      ],
+      "temporal_reasoning": "Work deadline stress first noted on Jan 14. Headache first appeared on Feb 03, a gap of 20 days. Headache reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 19 days. linking ...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week to ...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+          "timestamp": "2026-02-03T19:45:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Headache may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain headache"
+      ]
+    },
+    {
+      "pattern_id": "P-023",
+      "user_id": "USR003",
+      "short_title": "Work deadline stress triggering delayed low mood after 20 days",
+      "evidence_sessions": [
+        "USR003_S02",
+        "USR003_S04"
+      ],
+      "temporal_reasoning": "Work deadline stress first noted on Jan 14. Low mood first appeared on Feb 03, a gap of 20 days. Low mood reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 19 days. linking ...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe... to ...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe...",
+          "timestamp": "2026-02-03T19:45:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Low mood may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain low mood"
+      ]
+    },
+    {
+      "pattern_id": "P-024",
+      "user_id": "USR003",
+      "short_title": "Work deadline stress triggering delayed anxiety after 45 days",
+      "evidence_sessions": [
+        "USR003_S02",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "Work deadline stress first noted on Jan 14. Anxiety first appeared on Feb 28, a gap of 45 days. Anxiety reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 44 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s... to ...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol..., [tag] cortisol",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "trigger",
+          "extracted_text": "[tag] cortisol",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Anxiety may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain anxiety"
+      ]
+    },
+    {
+      "pattern_id": "P-025",
+      "user_id": "USR003",
+      "short_title": "Dairy consumption triggering delayed anxiety after 36 days",
+      "evidence_sessions": [
+        "USR003_S03",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "Dairy consumption first noted on Jan 23. Anxiety first appeared on Feb 28, a gap of 36 days. Anxiety reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 2 month(s). spanning 36 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s... to ...me rice with protein not just reduce rice. try adding an egg or some chicken or paneer to your lunch. the protein slows glucose absorption and prevents the sharp cras...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...me rice with protein not just reduce rice. try adding an egg or some chicken or paneer to your lunch. the protein slows glucose absorption and prevents the sharp cras...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Anxiety may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain anxiety"
+      ]
+    },
+    {
+      "pattern_id": "P-026",
+      "user_id": "USR003",
+      "short_title": "Late night eating triggering delayed anxiety after 25 days",
+      "evidence_sessions": [
+        "USR003_S04",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "Late night eating first noted on Feb 03. Anxiety first appeared on Feb 28, a gap of 25 days. Anxiety reported in 1 subsequent session(s).",
+      "confidence": "medium",
+      "justification": "2 evidence sessions across 1 month(s). spanning 25 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s... to ...ation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "trigger",
+          "extracted_text": "...ation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Anxiety may be caused by an unrelated condition",
+        "Temporal proximity does not establish causation",
+        "Other lifestyle changes during the same period could explain anxiety"
+      ]
+    },
+    {
+      "pattern_id": "P-027",
+      "user_id": "USR003",
+      "short_title": "High carbohydrate meal causing compounding symptoms: menstrual cramps, post-lunch energy crash, fatigue, headache, low mood, anxiety",
+      "evidence_sessions": [
+        "USR003_S01",
+        "USR003_S02",
+        "USR003_S03",
+        "USR003_S04",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "High carbohydrate meal started on Jan 06. Menstrual cramps first appeared on Jan 14 (8 days after trigger). Post-lunch energy crash first appeared on Jan 23 (17 days after trigger). Fatigue first appeared on Jan 23 (17 days after trigger). Headache first appeared on Feb 03 (28 days after trigger). Low mood first appeared on Feb 03 (28 days after trigger). Anxiety first appeared on Feb 28 (53 days after trigger).",
+      "confidence": "very high",
+      "justification": "5 evidence sessions across 2 month(s). spanning 53 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s..., ...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe..., ...ill 1 or 2am most nights. I know I shouldnt but I cant seem to stop. now I feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit..., ...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week, ...ry day the combination of chronic sleep deprivation from late night screen use, waking up tired every day, and low level floating anxiety are all connected. sleep debt creates..., I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep..., I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some..., [tag] fatigue, period is due in about a week and my cramps have started already. usually my cramps are manageable but this month they feel stronger aro..., the 2pm crash is still happening. I tried eating less rice but I was so hungry by 3pm and end... to .... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not..., ...protein. after biscuits I felt okay for an hour then crashed again biscuits are high sugar so they caused another smaller spike and crash. you need to replace some rice w...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "symptom",
+          "extracted_text": "I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "symptom",
+          "extracted_text": "I feel so exhausted after lunch every single day. like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S01",
+          "signal_type": "trigger",
+          "extracted_text": ".... like I cannot focus at all between 2 and 4pm. it is affecting my work usually rice, dal, maybe some curry. big meal. sleep is okay, 7 hours. weekends I dont really not...",
+          "timestamp": "2026-01-06T14:30:00"
+        },
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "symptom",
+          "extracted_text": "period is due in about a week and my cramps have started already. usually my cramps are manageable but this month they feel stronger aro...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "symptom",
+          "extracted_text": "the 2pm crash is still happening. I tried eating less rice but I was so hungry by 3pm and end...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...protein. after biscuits I felt okay for an hour then crashed again biscuits are high sugar so they caused another smaller spike and crash. you need to replace some rice w...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "symptom",
+          "extracted_text": "[tag] fatigue",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ill 1 or 2am most nights. I know I shouldnt but I cant seem to stop. now I feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...ry day the combination of chronic sleep deprivation from late night screen use, waking up tired every day, and low level floating anxiety are all connected. sleep debt creates...",
+          "timestamp": "2026-02-28T20:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than high carbohydrate meal",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    },
+    {
+      "pattern_id": "P-028",
+      "user_id": "USR003",
+      "short_title": "Work deadline stress causing compounding symptoms: headache, low mood, menstrual cramps, anxiety",
+      "evidence_sessions": [
+        "USR003_S02",
+        "USR003_S04",
+        "USR003_S05",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "Work deadline stress started on Jan 14. Headache first appeared on Feb 03 (20 days after trigger). Low mood first appeared on Feb 03 (20 days after trigger). Menstrual cramps first appeared on Feb 11 (28 days after trigger). Anxiety first appeared on Feb 28 (45 days after trigger).",
+      "confidence": "very high",
+      "justification": "4 evidence sessions across 2 month(s). spanning 44 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s..., ...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe..., ...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week, period cramps are really bad this month again. worse than usual. I am using a hot water bottle but not helpi..., period is due in about a week and my cramps have started already. usually my cramps are manageable but this month they feel stronger aro... to ...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol..., ...g much day 23 I think, so period in about 5 days. work is still very stressful, another big deadline. sleep is bad still, the late night thing this is the second month where your c..., [tag] cortisol",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "symptom",
+          "extracted_text": "period is due in about a week and my cramps have started already. usually my cramps are manageable but this month they feel stronger aro...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S02",
+          "signal_type": "trigger",
+          "extracted_text": "...feel stronger around day 21 I think. work has been really stressful this month, big product launch. sleep has been broken pre-menstrual cramping can intensify with high cortisol...",
+          "timestamp": "2026-01-14T21:00:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S05",
+          "signal_type": "symptom",
+          "extracted_text": "period cramps are really bad this month again. worse than usual. I am using a hot water bottle but not helpi...",
+          "timestamp": "2026-02-11T22:30:00"
+        },
+        {
+          "session_id": "USR003_S05",
+          "signal_type": "trigger",
+          "extracted_text": "...g much day 23 I think, so period in about 5 days. work is still very stressful, another big deadline. sleep is bad still, the late night thing this is the second month where your c...",
+          "timestamp": "2026-02-11T22:30:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "trigger",
+          "extracted_text": "[tag] cortisol",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than work deadline stress",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    },
+    {
+      "pattern_id": "P-029",
+      "user_id": "USR003",
+      "short_title": "Dairy consumption causing compounding symptoms: headache, low mood, anxiety",
+      "evidence_sessions": [
+        "USR003_S03",
+        "USR003_S04",
+        "USR003_S07"
+      ],
+      "temporal_reasoning": "Dairy consumption started on Jan 23. Headache first appeared on Feb 03 (11 days after trigger). Low mood first appeared on Feb 03 (11 days after trigger). Anxiety first appeared on Feb 28 (36 days after trigger).",
+      "confidence": "medium",
+      "justification": "3 evidence sessions across 2 month(s). spanning 36 days. linking ...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s..., ...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe..., ...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week to ...me rice with protein not just reduce rice. try adding an egg or some chicken or paneer to your lunch. the protein slows glucose absorption and prevents the sharp cras...",
+      "supporting_signals": [
+        {
+          "session_id": "USR003_S03",
+          "signal_type": "trigger",
+          "extracted_text": "...me rice with protein not just reduce rice. try adding an egg or some chicken or paneer to your lunch. the protein slows glucose absorption and prevents the sharp cras...",
+          "timestamp": "2026-01-23T10:15:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...ow versus just afternoon tiredness before is a sign the sleep deprivation is compounding. the mood dip often follows. try a hard stop on screens at 11:30pm this week",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S04",
+          "signal_type": "symptom",
+          "extracted_text": "...feel tired all day not just afternoons maybe 3 weeks. waking up at 7 for work. mood has been a bit low honestly chronic late night screen use disrupts melatonin production which affe...",
+          "timestamp": "2026-02-03T19:45:00"
+        },
+        {
+          "session_id": "USR003_S07",
+          "signal_type": "symptom",
+          "extracted_text": "...bit anxious lately, low level but constant not about anything specific, just a general unease. work is a bit calmer now. wake up tired every day the combination of chronic s...",
+          "timestamp": "2026-02-28T20:00:00"
+        }
+      ],
+      "possible_alternative_explanations": [
+        "Multiple independent conditions appearing coincidentally",
+        "Shared underlying cause other than dairy consumption",
+        "Symptoms may have pre-existing subclinical presence before trigger"
+      ]
+    }
+  ],
+  "reasoning_trace": [
+    {
+      "step": 1,
+      "action": "begin_user_analysis",
+      "detail": "Analyzing Arjun (USR001): 9 sessions from 2026-01-05 to 2026-03-19"
+    },
+    {
+      "step": 2,
+      "action": "strategy_start",
+      "detail": "Running recurring co-occurrence analysis for USR001"
+    },
+    {
+      "step": 3,
+      "action": "cooccurrence_found",
+      "detail": "USR001: Recurring stomach pain correlated with late night eating during work deadline stress — very high confidence"
+    },
+    {
+      "step": 4,
+      "action": "cooccurrence_found",
+      "detail": "USR001: Recurring headache correlated with low water intake during sedentary behavior and work deadline stress — very high confidence"
+    },
+    {
+      "step": 5,
+      "action": "strategy_start",
+      "detail": "Running delayed sequence analysis for USR001"
+    },
+    {
+      "step": 6,
+      "action": "delayed_sequence_found",
+      "detail": "USR001: Late night eating triggering delayed fatigue after 30 days — medium confidence"
+    },
+    {
+      "step": 7,
+      "action": "delayed_sequence_found",
+      "detail": "USR001: Low water intake triggering delayed fatigue after 23 days — medium confidence"
+    },
+    {
+      "step": 8,
+      "action": "delayed_sequence_found",
+      "detail": "USR001: Late night screen use triggering delayed fatigue after 23 days — medium confidence"
+    },
+    {
+      "step": 9,
+      "action": "delayed_sequence_found",
+      "detail": "USR001: Sedentary behavior triggering delayed fatigue after 16 days — medium confidence"
+    },
+    {
+      "step": 10,
+      "action": "strategy_start",
+      "detail": "Running intervention outcome analysis for USR001"
+    },
+    {
+      "step": 11,
+      "action": "intervention_enrichment",
+      "detail": "USR001: Enriched existing pattern with 'increasing water intake' → improvement (7 days)"
+    },
+    {
+      "step": 12,
+      "action": "intervention_enrichment",
+      "detail": "USR001: Enriched existing pattern with 'increasing water intake' → worsening (10 days)"
+    },
+    {
+      "step": 13,
+      "action": "intervention_enrichment",
+      "detail": "USR001: Enriched existing pattern with 'posture breaks' → worsening (9 days)"
+    },
+    {
+      "step": 14,
+      "action": "strategy_start",
+      "detail": "Running compounding cascade analysis for USR001"
+    },
+    {
+      "step": 15,
+      "action": "cascade_found",
+      "detail": "USR001: Late night eating causing compounding symptoms: headache, lower back pain, stomach pain, fatigue — high"
+    },
+    {
+      "step": 16,
+      "action": "cascade_found",
+      "detail": "USR001: Low water intake causing compounding symptoms: headache, lower back pain, fatigue — high"
+    },
+    {
+      "step": 17,
+      "action": "cascade_found",
+      "detail": "USR001: Late night screen use causing compounding symptoms: headache, lower back pain, fatigue — high"
+    },
+    {
+      "step": 18,
+      "action": "strategy_start",
+      "detail": "Running variable isolation analysis for USR001"
+    },
+    {
+      "step": 19,
+      "action": "variable_isolation_found",
+      "detail": "USR001: Late night eating identified as independent driver of stomach pain over work deadline stress — medium"
+    },
+    {
+      "step": 20,
+      "action": "variable_isolation_found",
+      "detail": "USR001: Low water intake identified as independent driver of headache over work deadline stress — medium"
+    },
+    {
+      "step": 21,
+      "action": "begin_user_analysis",
+      "detail": "Analyzing Meera (USR002): 9 sessions from 2026-01-08 to 2026-03-18"
+    },
+    {
+      "step": 22,
+      "action": "strategy_start",
+      "detail": "Running recurring co-occurrence analysis for USR002"
+    },
+    {
+      "step": 23,
+      "action": "cooccurrence_found",
+      "detail": "USR002: Recurring acne correlated with dairy consumption — very high confidence"
+    },
+    {
+      "step": 24,
+      "action": "cooccurrence_found",
+      "detail": "USR002: Recurring hair fall correlated with severe calorie restriction during dairy consumption — medium confidence"
+    },
+    {
+      "step": 25,
+      "action": "strategy_start",
+      "detail": "Running delayed sequence analysis for USR002"
+    },
+    {
+      "step": 26,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Severe calorie restriction triggering delayed fatigue after 33 days — medium confidence"
+    },
+    {
+      "step": 27,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Severe calorie restriction triggering delayed brain fog after 33 days — medium confidence"
+    },
+    {
+      "step": 28,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Intermittent fasting triggering delayed fatigue after 33 days — medium confidence"
+    },
+    {
+      "step": 29,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Intermittent fasting triggering delayed brain fog after 33 days — medium confidence"
+    },
+    {
+      "step": 30,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Intermittent fasting triggering delayed hair fall after 42 days — high confidence"
+    },
+    {
+      "step": 31,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Dairy consumption triggering delayed fatigue after 26 days — medium confidence"
+    },
+    {
+      "step": 32,
+      "action": "delayed_sequence_found",
+      "detail": "USR002: Dairy consumption triggering delayed brain fog after 26 days — medium confidence"
+    },
+    {
+      "step": 33,
+      "action": "strategy_start",
+      "detail": "Running intervention outcome analysis for USR002"
+    },
+    {
+      "step": 34,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'dairy reduction' → worsening (7 days)"
+    },
+    {
+      "step": 35,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'dairy reduction' → improvement (10 days)"
+    },
+    {
+      "step": 36,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'dairy reduction' → worsening (9 days)"
+    },
+    {
+      "step": 37,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'increasing calorie intake' → worsening (7 days)"
+    },
+    {
+      "step": 38,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'increasing calorie intake' → worsening (17 days)"
+    },
+    {
+      "step": 39,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'increasing calorie intake' → worsening (8 days)"
+    },
+    {
+      "step": 40,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'increasing calorie intake' → improvement (10 days)"
+    },
+    {
+      "step": 41,
+      "action": "intervention_enrichment",
+      "detail": "USR002: Enriched existing pattern with 'dairy reintroduction' → improvement (8 days)"
+    },
+    {
+      "step": 42,
+      "action": "strategy_start",
+      "detail": "Running compounding cascade analysis for USR002"
+    },
+    {
+      "step": 43,
+      "action": "cascade_found",
+      "detail": "USR002: Severe calorie restriction causing compounding symptoms: acne, fatigue, brain fog, hair fall — high"
+    },
+    {
+      "step": 44,
+      "action": "cascade_found",
+      "detail": "USR002: Intermittent fasting causing compounding symptoms: acne, fatigue, brain fog, hair fall — high"
+    },
+    {
+      "step": 45,
+      "action": "cascade_found",
+      "detail": "USR002: Dairy consumption causing compounding symptoms: acne, fatigue, brain fog, hair fall — high"
+    },
+    {
+      "step": 46,
+      "action": "strategy_start",
+      "detail": "Running variable isolation analysis for USR002"
+    },
+    {
+      "step": 47,
+      "action": "variable_isolation_found",
+      "detail": "USR002: Dairy consumption identified as independent driver of acne over severe calorie restriction — high"
+    },
+    {
+      "step": 48,
+      "action": "begin_user_analysis",
+      "detail": "Analyzing Priya (USR003): 9 sessions from 2026-01-06 to 2026-03-16"
+    },
+    {
+      "step": 49,
+      "action": "strategy_start",
+      "detail": "Running recurring co-occurrence analysis for USR003"
+    },
+    {
+      "step": 50,
+      "action": "cooccurrence_found",
+      "detail": "USR003: Recurring fatigue correlated with high carbohydrate meal during sleep deprivation and late night screen use — high confidence"
+    },
+    {
+      "step": 51,
+      "action": "cooccurrence_found",
+      "detail": "USR003: Recurring post-lunch energy crash correlated with high carbohydrate meal — very high confidence"
+    },
+    {
+      "step": 52,
+      "action": "cooccurrence_found",
+      "detail": "USR003: Recurring menstrual cramps correlated with sleep deprivation during late night screen use — very high confidence"
+    },
+    {
+      "step": 53,
+      "action": "strategy_start",
+      "detail": "Running delayed sequence analysis for USR003"
+    },
+    {
+      "step": 54,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: High carbohydrate meal triggering delayed headache after 28 days — medium confidence"
+    },
+    {
+      "step": 55,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: High carbohydrate meal triggering delayed low mood after 28 days — medium confidence"
+    },
+    {
+      "step": 56,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: High carbohydrate meal triggering delayed anxiety after 53 days — medium confidence"
+    },
+    {
+      "step": 57,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Work deadline stress triggering delayed headache after 20 days — medium confidence"
+    },
+    {
+      "step": 58,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Work deadline stress triggering delayed low mood after 20 days — medium confidence"
+    },
+    {
+      "step": 59,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Work deadline stress triggering delayed anxiety after 45 days — medium confidence"
+    },
+    {
+      "step": 60,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Sleep deprivation triggering delayed headache after 20 days — medium confidence"
+    },
+    {
+      "step": 61,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Sleep deprivation triggering delayed low mood after 20 days — medium confidence"
+    },
+    {
+      "step": 62,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Sleep deprivation triggering delayed anxiety after 45 days — medium confidence"
+    },
+    {
+      "step": 63,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Dairy consumption triggering delayed anxiety after 36 days — medium confidence"
+    },
+    {
+      "step": 64,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Late night eating triggering delayed anxiety after 25 days — medium confidence"
+    },
+    {
+      "step": 65,
+      "action": "delayed_sequence_found",
+      "detail": "USR003: Late night screen use triggering delayed anxiety after 25 days — medium confidence"
+    },
+    {
+      "step": 66,
+      "action": "strategy_start",
+      "detail": "Running intervention outcome analysis for USR003"
+    },
+    {
+      "step": 67,
+      "action": "intervention_enrichment",
+      "detail": "USR003: Enriched existing pattern with 'screen time limit' → worsening (8 days)"
+    },
+    {
+      "step": 68,
+      "action": "intervention_enrichment",
+      "detail": "USR003: Enriched existing pattern with 'screen time limit' → worsening (10 days)"
+    },
+    {
+      "step": 69,
+      "action": "intervention_enrichment",
+      "detail": "USR003: Enriched existing pattern with 'increasing water intake' → improvement (9 days)"
+    },
+    {
+      "step": 70,
+      "action": "intervention_enrichment",
+      "detail": "USR003: Enriched existing pattern with 'adding protein to lunch' → worsening (8 days)"
+    },
+    {
+      "step": 71,
+      "action": "strategy_start",
+      "detail": "Running compounding cascade analysis for USR003"
+    },
+    {
+      "step": 72,
+      "action": "cascade_found",
+      "detail": "USR003: High carbohydrate meal causing compounding symptoms: menstrual cramps, post-lunch energy crash, fatigue, headache, low mood, anxiety — high"
+    },
+    {
+      "step": 73,
+      "action": "cascade_found",
+      "detail": "USR003: Work deadline stress causing compounding symptoms: headache, low mood, menstrual cramps, anxiety — high"
+    },
+    {
+      "step": 74,
+      "action": "cascade_found",
+      "detail": "USR003: Sleep deprivation causing compounding symptoms: headache, low mood, menstrual cramps, anxiety — high"
+    },
+    {
+      "step": 75,
+      "action": "cascade_found",
+      "detail": "USR003: Dairy consumption causing compounding symptoms: headache, low mood, anxiety — high"
+    },
+    {
+      "step": 76,
+      "action": "strategy_start",
+      "detail": "Running variable isolation analysis for USR003"
+    },
+    {
+      "step": 77,
+      "action": "variable_isolation_found",
+      "detail": "USR003: High carbohydrate meal identified as independent driver of fatigue over sleep deprivation — low"
+    },
+    {
+      "step": 78,
+      "action": "variable_isolation_found",
+      "detail": "USR003: High carbohydrate meal identified as independent driver of post-lunch energy crash over dairy consumption — high"
+    },
+    {
+      "step": 79,
+      "action": "variable_isolation_found",
+      "detail": "USR003: Sleep deprivation identified as independent driver of menstrual cramps over late night screen use — high"
+    },
+    {
+      "step": 80,
+      "action": "deduplication",
+      "detail": "Checking 46 patterns for redundancy"
+    },
+    {
+      "step": 81,
+      "action": "deduplication_result",
+      "detail": "Removed 17 redundant patterns"
+    },
+    {
+      "step": 82,
+      "action": "scoring_start",
+      "detail": "Recalibrating confidence for 29 detected patterns"
+    },
+    {
+      "step": 83,
+      "action": "confidence_unchanged",
+      "detail": "P-001 (USR001): remains very high"
+    },
+    {
+      "step": 84,
+      "action": "confidence_unchanged",
+      "detail": "P-002 (USR001): remains very high"
+    },
+    {
+      "step": 85,
+      "action": "confidence_unchanged",
+      "detail": "P-003 (USR001): remains medium"
+    },
+    {
+      "step": 86,
+      "action": "confidence_unchanged",
+      "detail": "P-004 (USR001): remains medium"
+    },
+    {
+      "step": 87,
+      "action": "confidence_unchanged",
+      "detail": "P-005 (USR001): remains medium"
+    },
+    {
+      "step": 88,
+      "action": "confidence_adjusted",
+      "detail": "P-006 (USR001): high → very high. Reasons: bumped: 5 sessions across 2 months"
+    },
+    {
+      "step": 89,
+      "action": "confidence_adjusted",
+      "detail": "P-007 (USR001): high → medium. Reasons: demoted: multiple alternative explanations without intervention confirmation"
+    },
+    {
+      "step": 90,
+      "action": "confidence_unchanged",
+      "detail": "P-008 (USR002): remains very high"
+    },
+    {
+      "step": 91,
+      "action": "confidence_unchanged",
+      "detail": "P-009 (USR002): remains medium"
+    },
+    {
+      "step": 92,
+      "action": "confidence_unchanged",
+      "detail": "P-010 (USR002): remains medium"
+    },
+    {
+      "step": 93,
+      "action": "confidence_adjusted",
+      "detail": "P-011 (USR002): high → very high. Reasons: bumped: 4 sessions across 3 months"
+    },
+    {
+      "step": 94,
+      "action": "confidence_unchanged",
+      "detail": "P-012 (USR002): remains medium"
+    },
+    {
+      "step": 95,
+      "action": "confidence_unchanged",
+      "detail": "P-013 (USR002): remains medium"
+    },
+    {
+      "step": 96,
+      "action": "confidence_adjusted",
+      "detail": "P-014 (USR002): high → very high. Reasons: bumped: 4 sessions across 2 months"
+    },
+    {
+      "step": 97,
+      "action": "confidence_adjusted",
+      "detail": "P-015 (USR002): high → very high. Reasons: bumped: 4 sessions across 2 months"
+    },
+    {
+      "step": 98,
+      "action": "confidence_unchanged",
+      "detail": "P-016 (USR003): remains very high"
+    },
+    {
+      "step": 99,
+      "action": "confidence_unchanged",
+      "detail": "P-017 (USR003): remains very high"
+    },
+    {
+      "step": 100,
+      "action": "confidence_unchanged",
+      "detail": "P-018 (USR003): remains very high"
+    },
+    {
+      "step": 101,
+      "action": "confidence_unchanged",
+      "detail": "P-019 (USR003): remains medium"
+    },
+    {
+      "step": 102,
+      "action": "confidence_unchanged",
+      "detail": "P-020 (USR003): remains medium"
+    },
+    {
+      "step": 103,
+      "action": "confidence_unchanged",
+      "detail": "P-021 (USR003): remains medium"
+    },
+    {
+      "step": 104,
+      "action": "confidence_unchanged",
+      "detail": "P-022 (USR003): remains medium"
+    },
+    {
+      "step": 105,
+      "action": "confidence_unchanged",
+      "detail": "P-023 (USR003): remains medium"
+    },
+    {
+      "step": 106,
+      "action": "confidence_unchanged",
+      "detail": "P-024 (USR003): remains medium"
+    },
+    {
+      "step": 107,
+      "action": "confidence_unchanged",
+      "detail": "P-025 (USR003): remains medium"
+    },
+    {
+      "step": 108,
+      "action": "confidence_unchanged",
+      "detail": "P-026 (USR003): remains medium"
+    },
+    {
+      "step": 109,
+      "action": "confidence_adjusted",
+      "detail": "P-027 (USR003): high → very high. Reasons: bumped: 5 sessions across 2 months"
+    },
+    {
+      "step": 110,
+      "action": "confidence_adjusted",
+      "detail": "P-028 (USR003): high → very high. Reasons: bumped: 4 sessions across 2 months"
+    },
+    {
+      "step": 111,
+      "action": "confidence_adjusted",
+      "detail": "P-029 (USR003): high → medium. Reasons: demoted: multiple alternative explanations without intervention confirmation"
+    },
+    {
+      "step": 112,
+      "action": "scoring_complete",
+      "detail": "Recalibration complete for 29 patterns"
+    }
+  ],
+  "chunking_strategy": {
+    "method": "temporal_windowing_per_user",
+    "description": "Each user's conversations are sorted chronologically, then grouped into half-month windows (early: days 1-15, late: days 16-31) within each calendar month. This preserves session ordering and allows the detector to reason across windows while keeping related sessions grouped. All prior sessions are retained in context when analyzing a new window so that cross-session patterns spanning months are not missed. The detector operates on the full user timeline but uses windows to structure its temporal reasoning and to report which time periods contributed to each finding.",
+    "per_user_windows": {
+      "USR001": [
+        {
+          "window": "2026-01-early",
+          "sessions": [
+            "USR001_S01",
+            "USR001_S02"
+          ]
+        },
+        {
+          "window": "2026-01-late",
+          "sessions": [
+            "USR001_S03",
+            "USR001_S04"
+          ]
+        },
+        {
+          "window": "2026-02-early",
+          "sessions": [
+            "USR001_S05",
+            "USR001_S06"
+          ]
+        },
+        {
+          "window": "2026-02-late",
+          "sessions": [
+            "USR001_S07"
+          ]
+        },
+        {
+          "window": "2026-03-early",
+          "sessions": [
+            "USR001_S08"
+          ]
+        },
+        {
+          "window": "2026-03-late",
+          "sessions": [
+            "USR001_S09"
+          ]
+        }
+      ],
+      "USR002": [
+        {
+          "window": "2026-01-early",
+          "sessions": [
+            "USR002_S01",
+            "USR002_S02"
+          ]
+        },
+        {
+          "window": "2026-01-late",
+          "sessions": [
+            "USR002_S03"
+          ]
+        },
+        {
+          "window": "2026-02-early",
+          "sessions": [
+            "USR002_S04",
+            "USR002_S05"
+          ]
+        },
+        {
+          "window": "2026-02-late",
+          "sessions": [
+            "USR002_S06",
+            "USR002_S07"
+          ]
+        },
+        {
+          "window": "2026-03-early",
+          "sessions": [
+            "USR002_S08"
+          ]
+        },
+        {
+          "window": "2026-03-late",
+          "sessions": [
+            "USR002_S09"
+          ]
+        }
+      ],
+      "USR003": [
+        {
+          "window": "2026-01-early",
+          "sessions": [
+            "USR003_S01",
+            "USR003_S02"
+          ]
+        },
+        {
+          "window": "2026-01-late",
+          "sessions": [
+            "USR003_S03"
+          ]
+        },
+        {
+          "window": "2026-02-early",
+          "sessions": [
+            "USR003_S04",
+            "USR003_S05"
+          ]
+        },
+        {
+          "window": "2026-02-late",
+          "sessions": [
+            "USR003_S06",
+            "USR003_S07"
+          ]
+        },
+        {
+          "window": "2026-03-early",
+          "sessions": [
+            "USR003_S08"
+          ]
+        },
+        {
+          "window": "2026-03-late",
+          "sessions": [
+            "USR003_S09"
+          ]
+        }
+      ]
+    }
+  },
+  "failure_notes": [
+    "Signal extraction relies on phrase matching against a fixed taxonomy. Symptoms or triggers expressed in language not covered by the taxonomy will be missed. Novel phrasing or metaphorical descriptions of health issues are not captured.",
+    "Negation detection is limited to a small set of known phrases per trigger. Complex negations, sarcasm, or conditional statements may cause false positives where a trigger is detected despite being explicitly denied by the user.",
+    "The system cannot distinguish correlation from causation. Co-occurring signals across sessions are reported as correlated patterns, not proven causal links. The temporal ordering provides directional evidence but not proof.",
+    "Confidence scores are calibrated using session count, month span, and intervention confirmation. These heuristics may over-weight patterns with more sessions regardless of the quality of evidence in each session.",
+    "The compounding cascade strategy assumes that symptoms appearing after a trigger and not present before it are downstream effects. This assumption fails if the symptom existed before the dataset's time range or was simply not reported earlier.",
+    "Variable isolation requires at least 3 sessions with the same symptom and at least 2 co-occurring triggers to compare. Patterns with fewer data points will not be analyzed for isolated drivers, which may cause under-detection."
+  ]
+}
